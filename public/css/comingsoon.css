@@ -1,0 +1,86 @@
+.Portada {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  display:flex
+}
+
+#Fondo-Portada {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+.logo-comingsoon{
+  float: right;
+  margin:2%;
+  position: sticky;
+  margin-left:92%;
+  z-index: 1;
+}
+
+.comingsoon-data{
+    display:grid;
+}
+
+.comingsoon-title{
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.errorLabel-cs{
+  color: red;
+  margin: 20px;
+  min-height: 30px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.comingsoon-input{
+  color: white;
+}
+
+.comingsoon-button{
+  display:contents
+}
+@media only screen and (max-width: 767px){
+  .comingsoon-input{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+  }
+  .comingsoon-button{
+    display:flex;
+    justify-content: center;
+  }
+  .comingsoon-title{
+    font-size: 70px;
+    font-weight: bold;
+  }
+  .search{
+    background:transparent!important
+  }
+  .input-col{
+    margin-bottom: 15px;
+    width: 95%!important;
+  }
+  .comingsoon-form{
+    justify-content:center!important;
+  }
+}
+
+.comingsoon-form{
+  justify-content:space-between;
+  align-items:center;
+  margin: 10px!important;
+}
+.input-col{
+  background: #0a0a0a!important;
+}

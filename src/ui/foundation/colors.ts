@@ -1,0 +1,17 @@
+const COLORS = {
+    WHITE: '#FFFFFF',
+    LIGHTGREY: '#6a6870',
+    GREEN: '#47e6b6',
+    GREEN_DARK: '#05281E',
+    BORDERGREY: '#1f2123',
+    GREY: '#929292',
+    DARKGREY: '#0f1011',
+    ALMOSTBLACK: '#050505',
+    LIGHTDARK: '#0A0A0A',
+    PANNELGREY: '#0B0C0D',
+    STROKEGREY: '#393939',
+    BACKGROUNDGREY: '#181A1C',
+    BACKGROUNDGREYTWO: '#121212',
+    REDERROR: '#ff4d4f',
+};
+export default COLORS;

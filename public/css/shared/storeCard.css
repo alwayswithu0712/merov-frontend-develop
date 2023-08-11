@@ -1,0 +1,69 @@
+.content-body .browsecard{
+    background: var(--color-background-cards);
+    max-width: 350px;
+}
+
+.browsecard{
+    background: var(--color-background-cards);
+    max-width: 350px;
+    
+}
+
+@media only screen and (max-width: 800px){
+    .content-body .browsecard{
+        width: 30%;
+      }
+
+}
+@media only screen and (max-width: 530px){
+    .content-body .browsecard{
+        max-width: 100px;
+      }
+
+}
+.browsecard .img-padding{
+    padding-bottom: 10px
+}
+
+
+.browsecard .padding {
+    padding: 10px 15px;
+
+}
+
+.browsecard .title{
+    font-size: 14px;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis ;
+}
+
+.browsecard .padding-btn{
+    padding: 0px 15px;
+}
+
+
+.single-pr-data-row-inline {
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.browsecard .condition {
+    background-color: #1F1F1F;
+    color: #DBDBDB;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.browsecard .description{
+    color: grey;
+    height: 60px;
+    font-weight: 400;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+
+

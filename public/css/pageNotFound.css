@@ -1,0 +1,14 @@
+.page-not-found-data{
+    justify-content:center;
+    display:flex;
+}
+
+.page-not-found-button{
+    display: flex;
+    justify-content: center;
+  }
+
+  .page-not-found-title{
+    font-size: 60px;
+    font-weight: bold;
+  }

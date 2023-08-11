@@ -1,0 +1,111 @@
+/* Custom styles */
+
+.input_custom,
+.textarea_custom {
+    position: relative;
+    width: 100%;
+}
+.input_custom_quantity .ant-input-number-input {
+    padding: 1.25rem 2rem;
+}
+
+.input_custom.offer {
+    width: 100%;
+}
+
+.input_custom_quantity.ant-input-number:hover,
+.input_custom_quantity.ant-input-number:focus,
+.input_custom_quantity.ant-input-number:active,
+.input_custom_quantity.ant-input-number {
+    border: 1px solid #47e6b6;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.input_custom_quantity.ant-input-number .ant-input-number-handler-wrap {
+    background: transparent;
+}
+
+.input_custom_quantity.ant-input-number .ant-input-number-handler {
+    border-color: #47e6b6;
+}
+
+.input_custom_quantity.ant-input-number .ant-input-number-input,
+.input_custom_quantity.ant-input-number {
+    height: 50px;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+}
+
+.input_custom_quantity .ant-input-number-handler-wrap svg path {
+    fill: #47e6b6;
+}
+
+.textarea_custom textarea.ant-input {
+    border: 1px solid #47e6b6 !important;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: transparent;
+    min-height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 1.25rem 2rem;
+    color: #fff;
+    font-weight: 400;
+    resize: none;
+}
+
+.textarea_custom textarea.ant-input-status-error {
+    background: transparent !important;
+    border-color: #ff4d4f !important;
+}
+
+.input_custom .input__label,
+.textarea_custom .textarea__label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    user-select: none;
+    color: #fff;
+    margin-bottom: 5px !important;
+}
+
+.input_custom .input__wrap,
+.textarea_custom .textarea__wrap {
+    width: 100%;
+    position: relative;
+}
+
+.input_custom .input__wrap input {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 13px 16px;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid rgba(112, 112, 112, 0.4);
+    border-radius: 8px;
+    width: 100%;
+    background-color: black !important;
+  
+}
+
+.input_custom .input__wrap input::placeholder {
+    color: #707070;
+}
+
+.input_custom .ant-input:focus {
+    box-shadow: 0 0 0 1px var(--color-basic-green);
+    border-radius: 8px;
+}
+
+.input__wrap .ant-picker-focused, 
+.profile .ant-picker-focused {
+    box-shadow: 0 0 0 1px var(--color-basic-green);
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: var(--color-basic-green) !important;
+    border-color: var(--color-basic-green) !important;
+}

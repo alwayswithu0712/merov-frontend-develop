@@ -1,0 +1,20 @@
+.escrow-property-row-card{
+    padding: 5px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+
+.escrow-property-row-card .escrow-title{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.escrow-property-row-card .escrow-text{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+
+

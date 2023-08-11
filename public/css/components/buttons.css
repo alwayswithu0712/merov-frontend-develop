@@ -1,0 +1,37 @@
+/* these styles are modified for modal buttons and antd elements */
+.ant-btn.ant-btn-primary{
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+    background: #47E6B6;
+    border-radius: 5px;
+    color: #05281E;
+}
+
+.ant-btn.ant-btn-primary:hover {
+    border: 0px;
+    background-color: #05281E;
+    color: #47E6B6;
+}
+
+.ant-btn.ant-btn-primary:active {
+    border: 0px;
+    background-color: #05281E;
+    color: #47E6B6;
+}
+
+.ant-btn.ant-btn-default {
+    border: 1px solid #929292;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.ant-btn.ant-btn-default:hover {
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    color: #FFFFFF;
+}
+

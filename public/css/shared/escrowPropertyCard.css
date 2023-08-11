@@ -1,0 +1,35 @@
+.escrow-property-image{
+    font-size: 25px;
+    color: var(--color-basic-green);
+    padding: 5px;
+    border: 1px solid rgb(190, 190, 190, 0.3);
+    background-color: var(--color-basic-grey);
+
+}
+
+.escrow-property-img-div{
+    position: relative;
+    top: 15px;
+    left: 20px;
+    z-index: 8;
+}
+
+.escrow-property-card{
+    background-color: var(--color-background-cards);
+    padding: 10px 20px;
+    height: 85%
+}
+
+.escrow-property-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.escrow-property-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: grey
+}
+
+

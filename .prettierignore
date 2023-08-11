@@ -1,0 +1,12 @@
+# Ignore artifacts:
+**/node_modules
+**/static
+**/dist
+**/lib
+**/lib-es5
+**/presets
+**/.next
+**/out
+dist
+node_modules
+.next

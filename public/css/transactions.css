@@ -1,0 +1,33 @@
+.transactions-header-col{
+    background-color: #0a0a0a;
+    min-height: 70px;
+    display:flex;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+}
+
+.transactions-d-content{
+    display:contents
+}
+
+.transactions-pages{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.transactions-page-nmb{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+
+.date-data{text-align: center}
+
+.transactions-items{
+    padding-bottom: 30px;
+    
+  }

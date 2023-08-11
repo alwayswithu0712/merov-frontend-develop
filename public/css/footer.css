@@ -1,0 +1,134 @@
+.footer-V2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 40px;
+    color:#DBDBDB
+}
+
+.footer-background{
+    background: var(--color-basic-grey)
+}
+
+.footer-V2 .links_block {
+    display: flex;
+    align-items: center;
+}
+
+.footer-V2 .links_item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    grid-gap: 15px;
+}
+
+.footer-V2 .links_item .dropdown-item {
+    padding: 2px 0;
+}
+
+.footer-V2 .links_item:first-child {
+    margin-left: 0;
+}
+
+.footer-V2 .site-text {
+    margin-bottom: 15px;
+    color:#DBDBDB;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.footer-V2 .text {
+    color: #F6F6F6;
+    padding-bottom: 50px;
+}
+
+.footer-V2 .text-second {
+    color: #F6F6F6;
+    padding-bottom: 10px;
+}
+
+.footer-V2 .links {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer-V2 .img-row {
+    margin-top: 20px;
+}
+
+.footer-V2 .input_custom .input__wrap input {
+    padding: 16px 15px
+}
+
+.footer-V2 .subscribe-row {
+    margin-top: 10px
+}
+
+.footer-V2 .links-row {
+    margin-top: 10px;
+}
+
+.footer-V2 .seconds-links {
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.footer-V2 .copyright-row {
+    border-top: 1px solid #DBDBDB;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.footer-V2 .subscribe-button {
+    margin-bottom: 15px;
+}
+
+
+.footer-V2:nth-child(1n){
+    margin-bottom: 20px;
+}
+
+.text-basic-color{
+    color: var(--color-basic-green);
+}
+
+@media only screen and (max-width: 576px) {
+    .footer-V2 .text {
+        padding-bottom: 20px;
+    }
+    .footer-V2 .img-row {
+        margin-bottom: 20px;
+        padding-right: 0px
+    }
+}
+
+@media only screen and (max-width: 774px) {
+    .footer-V2 .seconds-links {
+        text-align: center;
+        justify-content: center;
+    }
+    .copyright-text {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .footer-V2 {
+        padding:10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .footer-V2 {
+        padding:0px;
+    }
+    .footer-V2 .links {
+        margin-bottom: 5px;
+    }
+
+}
+
+.contact-modal .ant-select-selection-item{
+    justify-content:left;
+}

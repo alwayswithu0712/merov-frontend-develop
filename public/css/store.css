@@ -1,0 +1,187 @@
+.store-categories {
+    display: block;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #0a0a0a;
+    cursor: pointer;
+}
+
+.img-layout{
+    left: 0;
+    top: 0;
+    width: 100%;
+    object-fit: fill;
+    object-position: top;
+    border-radius: 5px;
+}
+
+.store-icon-drop {
+    color: var(--color-basic-green);
+}
+
+.store-cards{
+    justify-content: center;
+    display: flex;
+}
+
+.store-subcategories {
+    display: block;
+    padding-left: 3%;
+    padding-top: 5%;
+    color: #707070;
+}
+
+.store-categories {
+    display: block;
+    padding-left: 3%;
+    padding-top: 5%;
+    color: white;
+}
+
+
+
+.sortDropMenu {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sortdropToggle {
+    padding: 15px 20px 10px;
+    background: #0a0a0a;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.store-categories-side {
+    font-size: 15px;
+}
+
+.store .store-categories-dropdown {
+    display: none ;
+    margin-bottom: 15px
+}
+
+
+.sortDropMenu .dropdown-menu-antd {
+    overflow: auto ;
+    max-height: 300px ;
+}
+
+
+.dropmenuCategories {
+    background: var(--color-basic-grey)!important ;
+    padding: 15px 0px 10px;
+    color: #707070;
+}
+
+.dropdown-sort{
+    background: var(--color-basic-grey)!important ;
+    padding: 10px 10px 10px;
+    color: #707070;
+}
+
+.dropdown-sort:hover{
+    background: transparent !important;
+}
+
+.ant-dropdown-menu{
+    background: var(--color-basic-grey)!important ;
+}
+
+.dropdown-menu-antd .dropmenuAllCategories {
+    background: var(--color-basic-grey) !important;
+    padding: 0px 10px 0px;
+    border-bottom: 1px solid #504343;
+    padding-bottom: 5px;
+}
+
+.sortDropMenu .dropdown-menu {
+    border: 0px;
+    padding: 15px 20px 10px;
+    margin: 0px;
+    border-radius: 5px;
+    justify-content: flex-end;
+    background: #0a0a0a;
+    width: 75%;
+}
+
+
+.store-sort {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 15px
+}
+
+.creator {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: #47e6b6;
+}
+
+.creatorSeller {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    background-color: #47e6b6;
+}
+
+
+
+.store-cars-stars{
+    display: grid;
+     grid-gap: 0px;
+     font-size: 15px;
+     margin-bottom: 10px;
+     justify-content:first;
+     display:flex;
+}
+
+.store-cars-star{
+    justify-content: flex-end;
+     align-items: center;
+}
+
+.category-text-decor{
+    text-decoration: underline solid 3px;
+    text-decoration-color: var(--color-basic-green);
+    text-underline-offset: 7px;
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .sortDropMenu {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .display-size {
+        display: content !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .store-categories-dropdown {
+        display: flex !important;
+    }
+    .store-categories-side {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .sortDropMenu .notify-bell {
+        margin-right: 15px;
+    }
+}

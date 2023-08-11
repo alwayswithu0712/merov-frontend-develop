@@ -1,0 +1,15 @@
+.page-title-row{
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.page-title-txt-align{
+    text-align: initial!important;
+}
+
+@media only screen and (max-width: 991px) {
+    .page-title-txt-align{
+        text-align: center!important;
+    }}
+

@@ -1,0 +1,249 @@
+.complete_profile {
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto;
+}
+
+.complete_profile h1 {
+    font-size: 44px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.complete_profile .input_wrap {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.complete_profile .input_wrap input::placeholder {
+    color: #707070;
+}
+
+.complete_profile input:-internal-autofill-selected,
+.complete_profile .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input,
+.complete_profile .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input:hover,
+.complete_profile
+    .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper,
+.complete_profile
+    .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:hover,
+.complete_profile
+    .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper,
+.complete_profile
+    .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:hover {
+    background-color: #0a0a0a;
+    opacity: 1;
+}
+
+.complete_profile .ant-form-item-explain-connected {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.complete_profile .input_wrap .ant-input-affix-wrapper {
+    background-color: #0a0a0a;
+    border: none;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.complete_profile .input_wrap .ant-input-affix-wrapper .ant-input-suffix svg {
+    fill: #fff;
+    width: 20px;
+    height: 20px;
+}
+
+.complete_profile .ant-input-suffix {
+    padding: 0 12px;
+}
+
+.complete_profile .input_wrap .ant-input-affix-wrapper input {
+    border: none;
+    border-radius: 4px;
+    background-color: #0a0a0a;
+    color: #fff;
+    font-size: 16px;
+    padding: 1.25rem 2rem;
+}
+
+.complete_profile .ant-form-item-control-input {
+    border: none;
+}
+.complete_profile .ant-form-item-explain-connected {
+    margin-top: -10px !important;
+    margin-bottom: 30px !important;
+}
+
+.complete_profile .text .ant-form-item-control input {
+    background-color: #0a0a0a;
+    border: none;
+    border-radius: 4px;
+    opacity: 1;
+    padding: 1.25rem 2rem;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+}
+.complete_profile .ant-row {
+    flex-flow: row wrap;
+    min-width: 0;
+    display: block;
+}
+
+.complete_profile .input_wrap .ant-form-item-label > label {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.complete_profile .ant-form-item-label > label::after,
+.complete_profile .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    display: none;
+}
+
+.complete_profile .panel_button:before,
+.complete_profile .panel_button:after {
+    display: none;
+}
+
+.complete_profile .panel_button:active,
+.complete_profile .panel_button:focus,
+.complete_profile .panel_button {
+    color: #47e6b6;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.complete_profile .panel_button:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.complete_profile .panel_button svg path {
+    transition: 0.3s;
+}
+
+.complete_profile .panel_button:hover svg path {
+    fill: #fff;
+}
+
+.complete_profile .panel_button svg {
+    margin-left: 20px;
+}
+
+.complete_profile .panel_top {
+    color: #707070;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-center;
+}
+
+.complete_profile .panel_top p {
+    margin: 0;
+}
+
+.complete_profile .panel_top a {
+    transition: 0.3s;
+    color: #47e6b6;
+    margin-left: 5px;
+}
+
+.complete_profile .panel_top a:hover {
+    color: #fff;
+}
+
+.complete_profile .panel_bottom {
+    color: #707070;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.complete_profile .panel_bottom p {
+    margin: 0;
+}
+
+.complete_profile .panel_bottom a {
+    transition: 0.3s;
+    color: #47e6b6;
+    margin-left: 5px;
+}
+
+.complete_profile .panel_bottom a:hover {
+    color: #fff;
+}
+
+.form_custom .ant-picker {
+    width: 100%;
+    background: #0a0a0a;
+}
+
+.ant-picker-panel-container {
+    width: 100%;
+    background: #0a0a0a !important;
+    color: white !important;
+}
+
+.ant-picker-input > input {
+    color: white !important;
+}
+
+.ant-picker {
+    background: #050505 !important;
+}
+
+.ant-picker-header,
+.ant-picker-header button,
+.ant-picker-content th,
+.ant-picker-cell-in-view {
+    color: white !important;
+}
+
+.ant-picker-cell {
+    color: grey;
+}
+.ant-picker-cell:hover {
+    background-color: #0a0a0a !important;
+}
+
+.ant-picker-cell-inner:hover {
+    background-color: var(--color-basic-green) !important;
+    color: black !important;
+}
+
+.ant-picker-today-btn {
+    color: var(--color-basic-green) !important;
+}
+
+.complete_profile .ant-picker {
+    border: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .complete_profile .panel_bottom {
+        font-size: 14px;
+    }
+}
+
+.singup-login {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}

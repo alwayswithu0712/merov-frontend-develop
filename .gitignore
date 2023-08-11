@@ -1,0 +1,11 @@
+node_modules
+yarn-error.log
+*.txt
+.next
+.DS_Store
+.env
+.npmrc
+package-lock.json
+
+# Sentry
+.sentryclirc

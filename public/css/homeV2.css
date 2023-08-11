@@ -1,0 +1,349 @@
+.home-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin: 30px auto 0;
+}
+.why-merov-substract{
+    color:var(--color-basic-green);
+    margin-right:5px;
+    font-weight:600;
+    font-size:20px;
+}
+
+.vision-section .text{
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.Home .escrow-properties-row-card{
+    margin-top: 100px;
+}
+
+.Home .vision-section{
+    z-index: 10;
+    position: relative;
+}
+
+
+.Home .escrow-properties-card{
+    margin-top: 40px;
+}
+
+.elipse-row{
+    position: relative;
+}
+
+.elipse-blue{
+    position: absolute;
+    width: 1365px;
+    height: 765px;
+    background: radial-gradient( #7047E6, transparent 70%);
+    opacity: 0.2;
+    left:0px
+}
+
+.elipse-red{
+    position: absolute;
+    width: 765px;
+    height: 765px;
+    background: radial-gradient( #E64747, transparent 70%);
+    opacity: 0.2;
+    left: -480px;
+    top:-200px;
+}
+
+.elipse-green{
+    position: absolute;
+    width: 765px;
+    height: 765px;
+    background: radial-gradient( #47E6B6, transparent 70%);
+    opacity: 0.2;
+    right: -620px;
+    bottom: -250px;
+}
+
+.elipse-grey{
+    position: absolute;
+    width: 100%;
+    height: 605px;
+    left:-3px;
+    bottom: 0px;
+    opacity: 0.2;
+    background: radial-gradient(
+        650px 240px at 300px bottom,
+        #969DA1, transparent 80%
+      );
+
+}
+
+.elipse-row{
+    position: relative;
+}
+
+.img-escrow-row-back {
+    position: relative;
+    z-index: 1;
+  }
+
+  .img-escrow-row-back > img {
+    width: 380px;
+    z-index: 2;
+    position: absolute;
+
+
+  }
+
+.img-escrow-row {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 500px;
+  }
+
+  .img-escrow-row > img {
+    width: 380px;
+    z-index: 2;
+    position: absolute;
+
+
+  }
+.img-escrow-row .first-img{
+    top: 120px;
+    left: 70px
+}
+
+.img-escrow-row .second-img{
+    top: 55px;
+    width: 250px;
+    left: 120px
+}
+.img-escrow-row .third-img{
+    top: 40px;
+    left: 160px;
+    transform: rotate(9deg);
+}
+
+.img-escrow-row .fourth-img{
+    top: -30px;
+    left: -25px;
+    transform: rotate(-30deg);
+}
+
+.social-media-title{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.elipse-red-row{
+    position: relative;
+    z-index: 1;
+}
+
+.social-media-col{
+    position: relative;
+    z-index: 10;
+}
+
+.Home .marketplace-section{
+    margin-top: 100px;
+}
+
+.Home .marketplace-section .title-data,
+.Home .partners-section .title-data,
+.Home .vision-section .title-data{
+    justify-content:center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.partners-section .title-title-row{
+    justify-content:center;
+    display: flex;
+    text-align: center;
+}
+
+
+.Home .marketplace-section .text,
+.Home .partners-section .text{
+    font-size: 46px;
+    font-weight: 500;
+}
+
+.Home .marketplace-section .button{
+    justify-content:center;
+    display: flex;
+}
+
+.Home .partners-row {
+    background: var(--color-background-cards);
+    margin-top: 20px;
+}
+
+.partners-card img{
+    width: 130px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.partners-row-card div:nth-child(2n) img,
+.partners-row-card div:nth-child(5n) img{
+    width: 170px;
+}
+
+.partners-row-card div:nth-child(6n) img{
+    width: 100px;
+}
+.partners-row-card div:nth-child(4n) img{
+    width: 120px;
+}
+
+.partners-card {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 20px;
+    filter: brightness(0.2) invert(1);
+    border-right: 1px solid #6d6b6b;
+    height: 10rem;
+    cursor: pointer;
+}
+
+.partners-row div:last-child,
+.partners-row div:nth-child(3n) {
+    border-right: 0px
+}
+
+
+.Home .partners-section{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    margin-top: 100px;
+}
+
+.header-home .header{
+    position: inherit;
+    background: transparent;
+    border-bottom: 1px solid #242424;
+}
+
+.header-home .products-col{
+    justify-content:center;
+    display: flex;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .escrow-property-card {
+       margin-bottom: 40px;
+    }
+    .partners-row div:nth-child(2n),
+    .partners-row div:nth-child(6n) {
+        border-right: 0px
+      }
+      .partners-row div:nth-child(3n) {
+        border-right: 1px solid #242424
+      }
+}
+
+@media only screen and (max-width: 767px) {
+    .partners-row div:nth-child(6n) {
+        border-right: 0px
+      }
+}
+
+@media only screen and (max-width: 576px) {
+    .partners-row div {
+        border-right: 0px
+      }
+      .partners-row div:nth-child(3n) {
+        border-right: 0px
+      }
+}
+@media only screen and (max-width: 1160px) {
+    .img-escrow-row .first-img{
+        left: 20px
+    }
+
+    .img-escrow-row .second-img{
+        width: 250px;
+        left: 70px
+    }
+    .img-escrow-row .third-img{
+        left: 110px;
+    }
+    .img-escrow-row .fourth-img{
+
+        left: -75px;
+    }
+
+    @media only screen and (max-width: 991px) {
+        .img-escrow-row .first-img{
+            left: 19%
+        }
+
+        .img-escrow-row .second-img{
+            width: 250px;
+            left: 29%
+        }
+        .img-escrow-row .third-img{
+            left: 34%;
+        }
+        .img-escrow-row .fourth-img{
+
+            left: 4%;
+        }
+        .Home .escrow-properties-row-card{
+            justify-content:center;
+        }
+    }
+    @media only screen and (max-width: 520px) {
+
+        .img-escrow-row .first-img{
+            left: 10%
+        }
+
+        .img-escrow-row .second-img{
+            width: 250px;
+            left: 20%
+        }
+        .img-escrow-row .third-img{
+            left: 25%;
+        }
+        .img-escrow-row .fourth-img{
+
+            left: -8%;
+        }
+        .Home .escrow-properties-row-card{
+            justify-content:center;
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+        .img-escrow-row .first-img{
+            left: -2%
+        }
+
+        .img-escrow-row .second-img{
+            width: 250px;
+            left: 8%
+        }
+        .img-escrow-row .third-img{
+            left: 10%;
+        }
+        .img-escrow-row .fourth-img{
+
+            left: -20%;
+        }
+        .Home .escrow-properties-row-card{
+            justify-content:center;
+        }
+    }
+
+}

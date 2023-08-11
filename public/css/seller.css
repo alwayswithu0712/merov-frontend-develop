@@ -1,0 +1,245 @@
+
+.seller{
+    justify-content:center;
+    margin-bottom:20px
+}
+.seller-icon-start {
+    color: var(--color-basic-green);
+}
+
+.border-green {
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-basic-green);
+}
+
+.margin-bottom {
+    margin-bottom: 35px;
+}
+
+.seller-margin-titles {
+    margin-bottom: 10px;
+}
+
+
+.seller .seller-data-img{
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-gap:10px;
+    padding-right: 5px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.seller-items-price{
+    color: var(--color-basic-green)
+}
+
+.seller-items-condition{
+    text-align: end;
+    white-space: nowrap
+}
+
+.card .seller-items-btn{
+    border-radius: 10px;
+
+}
+
+.seller-btns-row{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.seller-icon-margin{
+    margin-right: 4px;
+}
+
+.seller-btn-text{
+    font-size: 15px;
+    font-weight: 500;
+    color: grey
+}
+
+.seller-icons-btn{
+    text-align: center;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content:center;
+}
+
+.row .seller-modals-btns{
+    padding: 10px;
+    height: 34px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.seller .seller-data{
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.seller .seller-starts{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px
+}
+
+.seller .seller-starts-buyers{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px
+}
+
+.seller .seller-data-color{
+    color: white;
+    font-weight: 400;
+
+}
+.seller .seller-stars-row{
+    align-items: center;
+    display:flex
+}
+
+.seller .seller-reviews{
+    align-items: flex-end;
+    padding-left: 0px;
+     display: flex;
+    font-weight: 500
+}
+
+.seller .seller-graph{
+    margin-top: 30px;
+}
+
+.seller .reviews-card{
+    display:block;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    transition: all .15s ease;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 10%);
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #2a2121 !important;
+    border: 0px solid #e5e5e5;
+    margin-bottom: 40px;
+    background: transparent;
+    height: 180px;
+    justify-content: center;
+    padding: 15px
+}
+
+.seller .seller-review{
+    text-align:center;
+    justify-content: center;
+}
+
+.seller .seller-review-row{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.seller .seller-arrow-right{
+    justify-content: right;
+    color:grey
+}
+
+.seller .carousel-dark .carousel-control-prev-icon,
+.seller .carousel-dark .carousel-control-next-icon {
+    filter: rgb(255, 255, 255, 0.5)!important;
+    font-size: 3px;
+    width:1rem
+}
+
+
+ .seller .seller-data-all-texts{
+    margin-bottom: 30px;
+}
+
+.seller .seller-cards-reviews-stars{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.seller .seller-arrow{
+    margin-bottom: 40px;
+    align-items:center;
+    display: flex;
+    font-size: 50px;
+    color:grey
+}
+
+.seller-cards-reviews-stars .seller-starts{
+    font-size: 18px;
+}
+
+.seller .pointer{
+    cursor:pointer;
+}
+
+.seller .img-avatar-review{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.seller .store-card-col{
+    justify-content: center;
+    display: flex;
+}
+
+.seller .products-edit-btn{
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1406px) {
+    .seller-data-items {
+        padding-bottom: 20px;
+        display: flex;
+        padding-right: 0px;
+    }
+    .padding-right {
+        padding-right: 0%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .margin-bottom-dashboard {
+        margin-bottom: 35px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .seller .seller-data-img{
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .seller .seller-data-text{
+       justify-content: center;
+       display:flex;
+       text-align:center;
+    }
+    .seller .seller-data-all{
+        justify-content: center;
+    }
+    .seller .seller-data-all-texts{
+        text-align:center;
+    }
+}
+

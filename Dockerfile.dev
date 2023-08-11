@@ -1,0 +1,8 @@
+FROM node:18 as builder
+RUN apt-get update
+WORKDIR /app
+COPY package.json yarn.lock tsconfig.json .npmrc ./ 
+RUN yarn install --force
+COPY . .
+RUN yarn build
+EXPOSE 3000

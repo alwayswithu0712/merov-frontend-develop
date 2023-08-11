@@ -1,0 +1,261 @@
+.signup_page {
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto;
+}
+
+.signup_page .input_wrap {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+.signup_page .input_wrap input::placeholder {
+    color: #707070;
+}
+
+.signup_page input:-internal-autofill-selected,
+.signup_page .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input,
+.signup_page .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input:hover,
+.signup_page .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper,
+.signup_page .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:hover,
+.signup_page .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper,
+.signup_page .ant-input-affix-wrapper-status-error:not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:hover {
+    background-color: #0a0a0a;
+    opacity: 1;
+}
+
+.ant-form-item-explain-connected {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.signup_page .input_wrap .ant-input-affix-wrapper {
+    background-color: #0a0a0a;
+    border: none;
+    border-radius: 8px;
+    padding: 0;
+}
+
+.signup_page .input_wrap .ant-input-affix-wrapper .ant-input-suffix svg {
+    fill: #fff;
+    width: 20px;
+    height: 20px;
+}
+
+.signup_page .ant-input-suffix {
+    padding: 0 12px;
+}
+
+.signup_page .input_wrap .ant-input-affix-wrapper input {
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 16px;
+}
+
+.signup_page .ant-form-item-control-input {
+    border: none
+}
+
+.signup_page .text .ant-form-item-control input {
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    opacity: 1;
+    padding: 12px 16px;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+}
+.signup_page .ant-row  {
+    flex-flow: row wrap;
+    min-width: 0;
+    display: block;
+
+}
+
+.signup_page .input_wrap .ant-form-item-label>label {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.signup_page .ant-form-item-label>label::after,
+.signup_page .ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    display: none;
+}
+
+.signup_page .panel_button:before,
+.signup_page .panel_button:after {
+    display: none;
+}
+
+.signup_page .panel_button:active,
+.signup_page .panel_button:focus,
+.signup_page .panel_button {
+    color: #47e6b6;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.signup_page .panel_button:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.signup_page .panel_button svg path {
+    transition: 0.3s;
+}
+
+.signup_page .panel_button:hover svg path {
+    fill: #fff;
+}
+
+.signup_page .panel_button svg {
+    margin-left: 20px;
+}
+
+.signup_page .panel_top {
+    color: #707070;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-center;
+}
+
+.signup_page .panel_top p {
+    margin: 0;
+}
+
+.signup_page .panel_top a {
+    transition: 0.3s;
+    color: #47e6b6;
+    margin-left: 5px;
+}
+
+.signup_page .panel_top a:hover {
+    color: #fff;
+}
+
+.signup_page .panel_bottom {
+    color: #707070;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.signup_page .panel_bottom p {
+    margin: 0;
+}
+
+.signup_page .panel_bottom a {
+    transition: 0.3s;
+    color: #47e6b6;
+    margin-left: 5px;
+}
+
+.signup_page .panel_bottom a:hover {
+    color: #fff;
+}
+
+.form_custom .ant-picker{
+    width: 100%;
+    background:#0a0a0a
+}
+
+.ant-picker-panel-container{
+    width: 100%;
+    background:#0a0a0a!important;
+    color: white !important;
+}
+
+.ant-form .ant-picker-input > input,
+.date__pick .ant-picker-input > input  {
+    color: white !important;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 13px 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    width: 100%;
+    background-color: transparent !important;
+}
+
+.ant-picker-input > input[disabled] {
+    color: #6a6870 !important;
+}
+
+.ant-picker-input input::placeholder {
+    color: rgb(122, 118, 118)!important;
+}
+
+.ant-picker{
+    background:black !important;
+    height: 48px !important;
+    border-radius: 8px !important;
+    border: 1px solid #393939 !important;
+}
+
+.ant-picker.ant-picker-disabled{
+    background: #050505 !important;
+}
+
+.ant-picker-header,
+.ant-picker-header button,
+.ant-picker-content th,
+.ant-picker-cell-in-view{
+    color: white !important
+}
+
+.ant-picker-cell{
+    color:grey;
+}
+.ant-picker-cell:hover{
+    background-color: #0a0a0a!important;
+}
+
+
+.ant-picker-cell-inner:hover{
+    background-color: var(--color-basic-green) !important;
+    color:black !important
+}
+
+.ant-picker-today-btn{
+    color: var(--color-basic-green) !important
+}
+
+.signup_page .ant-picker {
+    border: 0px ;
+}
+
+
+@media screen and (max-width: 768px) {
+    .signup_page .panel_bottom {
+        font-size: 14px;
+    }
+
+}
+
+.singup-login{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}

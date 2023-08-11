@@ -1,0 +1,17 @@
+# Ignore artifacts:
+# **/node_modules
+# **/static
+# **/dist
+# **/lib
+# **/lib-es5
+# **/sanity
+# **/presets
+# **/.next
+# **/out
+.husky
+.next
+.vscode
+dist
+node_modules
+public
+prettier.config.js

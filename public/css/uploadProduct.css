@@ -1,0 +1,264 @@
+.up-product-color {
+    background-color: var(--color-basic-grey);
+    color: white !important;
+    max-width: 780px;
+}
+
+.ant-form-item-label > label {
+    color: white !important;
+    font-size: 16px !important;
+}
+
+.up-input {
+    width: 100% !important;
+    background: var(--color-basic-grey) !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(112, 112, 112, 0.4);
+    border-radius: 8px !important;
+}
+
+.product-unpublished-info {
+    font-weight: 300;
+    font-size: 11px;
+    margin-right: 20px;
+}
+
+.updateForm .input-txtArea-height {
+    height: 140px !important;
+    padding: 25px !important;
+    color: white !important;
+}
+
+.ant-upload {
+    color: white !important;
+}
+
+.ant-upload:hover {
+    color: rgba(112, 112, 112, 0.4) !important;
+}
+
+.ant-form-item {
+    color: white !important;
+    /* margin:5px !important; */
+}
+
+.ant-upload-list {
+    color: white !important;
+}
+
+.ant-upload-list-item {
+    border: 2px solid rgba(112, 112, 112, 0.4) !important;
+}
+
+.anticon {
+    color: white !important;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+    background-color: transparent !important;
+}
+
+.ant-upload.ant-upload-select-picture-card:hover {
+    border: 1px dashed rgba(112, 112, 112, 0.4) !important;
+}
+
+.ant-select-dropdwn {
+    background: var(--color-basic-grey) !important;
+}
+
+.ant-select-selector {
+    background: black !important;
+    color: #707070 !important;
+    border: 1px solid rgba(112, 112, 112, 0.4) !important;
+    height: 48px !important;
+    text-align: center !important;
+    padding: 9px !important;
+    border-radius: 8px !important;
+}
+
+.modal-success-container {
+    padding: 30px 50px 30px 50px;
+}
+
+.modal-success-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-success-border {
+    border: #47e6b6 1px solid;
+    padding: 20px;
+}
+
+.modal-success-price {
+    color: #47e6b6 !important;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.ant-btn {
+    padding: 8px 30px !important;
+    height: 55px !important;
+    font-weight: 600 !important;
+    font-size: var(--bs-body-font-size) !important;
+}
+
+.ant-upload-list-item-actions .ant-btn {
+    margin-left: 12px;
+    margin-right: 8px;
+    padding: 6px !important;
+}
+
+.ant-btn-primary:focus {
+    background: transparent !important;
+    border-color: var(--color-basic-green) !important;
+}
+
+label.ant-form-item-required::before {
+    display: none !important;
+}
+
+.ant-input {
+    border: 1px solid rgba(112, 112, 112, 0.4);
+}
+
+.updateForm textarea.ant-input,
+.contact-modal textarea.ant-input {
+    border-color: rgba(112, 112, 112, 0.4);
+    background-color: black !important;
+    border-radius: 8px;
+}
+
+.error .ant-notification-notice-message {
+    color: rgb(129, 16, 16);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.success .ant-notification-notice-message {
+    color: var(--color-basic-green) !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.content-body .btn-custom.btn-primary:focus {
+    color: var(--color-basic-green);
+}
+
+.content-body .ant-btn::before {
+    opacity: 0;
+}
+
+.ant-modal-content .ant-btn::before {
+    opacity: 0;
+    background: black;
+}
+.ant-modal-content .ant-btn:focus {
+    background-color: black;
+    color: var(--color-basic-green);
+}
+
+.updateForm label {
+    font-weight: 500;
+}
+
+.uploadForm-img-currency-row {
+    display: flex;
+    text-align: center;
+}
+
+.uploadForm-img-currency-row:hover {
+    color: #47e6b6;
+}
+
+.uploadForm-img-currency {
+    margin: auto;
+    margin-right: 8px;
+    margin-left: 5px;
+}
+
+.uploadForm-delete-icon {
+    justify-content: initial;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.upload-remove-img {
+    font-size: 22px;
+    color: grey;
+}
+
+.upload-walletDropdown {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: grey;
+    background-color: black;
+}
+
+.upload-walletDropdown:hover {
+    color: #47e6b6;
+}
+
+.add-wallet-modal .display-modal-add-wallet-btn {
+    justify-content: flex-end;
+    display: flex;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.display-modal-add-wallet-btn .ant-btn {
+    padding: 10px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.updateForm .ant-select-selection-item {
+    justify-content: center;
+    display: flex;
+}
+
+.add-wallet-modal h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-wallet-modal .ant-select-selection-placeholder {
+    align-items: center;
+    display: flex;
+    justify-content: initial;
+    font-size: 16px;
+}
+
+.add-wallet-modal .form-add-wallet {
+    padding: 10px;
+}
+
+.upload-photo-item .ant-upload-list-item-card-actions-btn.ant-btn-sm {
+    vertical-align: middle;
+}
+
+.custom_autocomplete .ant-select-single .ant-select-selector .ant-select-selection-search {
+    position: absolute !important;
+    left: 16px !important;
+    top: 15px !important;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .modal-success-container {
+        padding: 30px 20px 30px 20px;
+    }
+    .modal-success-border {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .order-product-title {
+        margin-top: 10px;
+    }
+}

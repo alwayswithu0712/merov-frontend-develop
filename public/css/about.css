@@ -1,0 +1,107 @@
+.row-about{
+    padding-bottom: 3%;
+    padding-top: 3%;
+    justify-content: center;
+    display: flex;
+}
+
+.row-promotion{
+    padding-bottom: 3%;
+    padding-top: 3%;
+    justify-content: space-between;
+}
+
+.promotion-text-first{
+    justify-content:center;
+    display: flex;
+}
+
+
+@media only screen and (max-width: 1406px){
+    .row-promotion{
+        justify-content:center
+      }
+    .promotion-text-first{
+       display:contents
+    }
+}
+
+
+.promotion-text-first-inside{
+    max-width: 500px;
+    justify-content:center
+}
+
+.promotion-about-first{
+    background: url("/images/about.jpg") !important;
+    width:500px;
+    max-width:500px
+}
+
+.promotion-about-second{
+    background: url("/images/about-insights.jpg") !important;
+    width:500px;
+    max-width:500px
+}
+
+.cards-about{
+    justify-content: space-between;
+    display: contents !important;
+}
+
+.promotion-text-second{
+    justify-content: center;
+    display:contents;
+}
+
+.promotion-text-second-inside{
+    max-width: 500px;
+    justify-content:center;
+    padding-bottom: 20px;
+}
+
+
+/*# About Cards*/
+
+.icon-about-card{
+    font-size: 45px;
+    color: var(--color-basic-green);
+  }
+
+.about-card{
+}
+
+.about-card .card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    transition: 0s;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px solid #2a2121 !important;
+    margin-bottom: 40px;
+    background: transparent;
+}
+.about-card .card:hover{
+    transform: none
+}
+
+.about-promotion-row{
+    justify-content:center;
+    display:flex;
+}
+
+
+@media only screen and (max-width: 767px){
+    .about-padding-right-items{
+        padding-bottom: 3%;
+        padding-top: 3%;
+      }
+
+}
+

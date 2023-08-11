@@ -1,0 +1,38 @@
+.social-media{
+    background-color: var(--color-basic-grey);
+    display: flex;
+    padding : 15px;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight:500;
+    cursor: pointer;
+    align-items: center;
+}
+
+.social-media .discord{
+    color:#344BE9 ;
+}
+
+.social-media .telegram{
+    color:#2499D6 ;
+}
+
+.social-media .twitter{
+    color:#1D9BF0 ;
+}
+
+.social-media .icons{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.social-media .title{
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+    .social-media{
+        margin-bottom: 15px;
+    }
+}

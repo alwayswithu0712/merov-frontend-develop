@@ -1,0 +1,134 @@
+.home-title {
+    font-size: 36px;
+}
+
+.home-subtitle {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.home-market-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.home-promotion {
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.trans-home-row {
+    padding-bottom: 10px;
+    background-color: #0a0a0a;
+    padding: 25px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.trending-bids-categories {
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+}
+
+.trendings-bids-row {
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.trendings-bids-cards {
+    margin-bottom: 40px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.card-price {
+    font-size: 13px;
+}
+
+.trending-bids-categories {
+    text-align: end;
+}
+
+.btn-open {
+    background-color: #0ecb81 !important;
+    border-radius: 20px !important;
+    text-transform: uppercase !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    line-height: 20px !important;
+    text-align: center;
+    max-width: 90px;
+    border: 1px solid transparent;
+    display: grid;
+    height: 40px !important;
+    align-items: center;
+}
+
+.trans-price-col {
+    text-align: end;
+}
+
+.trans-name-col {
+    text-align: center;
+}
+
+.trans-back {
+    background-color: #0a0a0a;
+}
+
+.promotion2 {
+    padding: 20px 30px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(89, 102, 122, 0.05);
+    background: url('/images/img-prom-2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    min-height: 350px;
+}
+.promotion2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+.promotion2 .promotion-detail h3,
+.promotion2 .promotion-detail .h3 {
+    font-size: 26px;
+}
+.promotion2 .promotion-detail p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 30px;
+}
+.promotion2 .promotion-detail .btn {
+    padding: 12px 30px;
+    min-width: 150px;
+    margin: 10px 0px;
+}
+
+.prom-2 {
+    margin-bottom: 30px;
+}
+
+.home-market-categories {
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.home-market-categories-col {
+    justify-content: flex-end;
+    display: flex;
+}

@@ -1,0 +1,361 @@
+.border-grey {
+    border-bottom-style: solid;
+    border-bottom-color: #808080;
+}
+
+.order-status-container {
+    width: 75%;
+    margin: 15px auto !important;
+    max-width: 800px;
+    margin-top: 20px !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-status-container .order-btns-col {
+    width: 100%;
+    max-width: 320px;
+}
+
+.order-details-container {
+    border: #47e6b6 1px solid;
+    padding: 20px;
+    width: 75%;
+    margin: 15px auto !important;
+    max-width: 800px;
+}
+
+.order-status-container .btn-secondary-transparent {
+    margin-right: 30px;
+}
+
+.order-status-container .order-btn-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-status-container .order-btn-row p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-top: 13px;
+}
+
+.items-img {
+    object-fit: contain;
+}
+
+.order-details-container.mt-28 {
+    margin-top: 28px;
+}
+
+.container .order-card-container {
+    border: #47e6b6 1px solid;
+    padding: 20px;
+    width: 90%;
+    margin-left: 5% !important;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.order-card-container .btn {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.order-title {
+    text-align: center;
+}
+
+.order-subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.order-details-container .order-price {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #47e6b6;
+    display: block;
+}
+
+.order-details-container .order-product-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.order-details-container .label-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+.order-details-container .btn-custom {
+    margin-bottom: 36px;
+    padding: 11px 17px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto !important;
+    color: #050505;
+}
+
+.order-details-container .btn-custom span {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+}
+
+.order-details-container .btn-custom.m-b-0 {
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 230px;
+    margin-left: 20px;
+    border-width: 2px;
+}
+
+.order-details-container .btn-custom.m-b-0 span {
+    color: #fff;
+}
+
+.order-card-container .order-status-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.rate__wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.rate__wrap svg {
+    width: 28px;
+    height: 28px;
+}
+
+.rate__wrap .ant-rate-star-full svg path {
+    fill: #47e6b6;
+}
+
+.green {
+    color: var(--color-basic-green);
+}
+
+@media only screen and (max-width: 700px) {
+    .order-details-container .button-wrap {
+        flex-direction: column;
+    }
+
+    .order-details-container .btn-custom.m-b-0 {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .order-status-container .btn-secondary-transparent {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .order-status-container {
+        flex-direction: column;
+    }
+
+    .order-status-container .order-btns-col {
+        max-width: 100%;
+    }
+}
+
+.order-price {
+    color: #47e6b6 !important;
+    display: inline;
+    margin-right: 5px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.order-details-info {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.small-text {
+    font-weight: 300;
+    font-size: 11px;
+}
+
+.usd-price {
+    font-weight: 400;
+    font-size: 15px;
+    color: #808080;
+}
+
+.order-price-row {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+.order-price-row-center {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.order-shiping-row {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.order-shipping {
+    color: #47e6b6;
+    display: inline;
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+.delivery-address {
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.shipping-speed-info {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.orders-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-btn-view-pr {
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    height: 90px;
+}
+
+@media screen and (max-width: 768px) {
+    .order-card-container {
+        border: #47e6b6 1px solid;
+        padding: 20px;
+        width: 90%;
+        margin-left: 5% !important;
+    }
+
+    .order-details-container {
+        border: #47e6b6 1px solid;
+        padding: 20px;
+        width: 90%;
+        margin-left: 5% !important;
+        margin-bottom: 30px;
+    }
+
+    .order-status-container {
+        width: 90%;
+        margin-left: 5% !important;
+        max-width: 800px;
+    }
+
+    .orders-btns {
+        grid-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .order-btns-col {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+.withdraw-offer .textarea_custom {
+    margin-bottom: 24px;
+}
+
+.withdraw-offer-container .btn-custom.btn-secondary-transparent {
+    color: #47e6b6;
+}
+
+.withdraw-offer-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.withdraw-offer-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.withdraw-offer-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-image {
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 340px) {
+    .order-price-row {
+        display: grid;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .order-shiping-row {
+        display: grid;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .withdraw-offer-title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+
+    .withdraw-offer-text {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+
+    .withdraw-offer-buttons {
+        flex-direction: column;
+    }
+
+    .withdraw-offer-buttons .btn-secondary-transparent {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .order-image {
+        margin-top: 0px;
+    }
+}
