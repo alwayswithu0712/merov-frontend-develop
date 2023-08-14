@@ -3,6 +3,7 @@ import { UserProvider } from '@auth0/nextjs-auth0';
 import { AppProps } from 'next/app';
 import { NextPage } from 'next';
 import '../../public/css/style.css';
+import '../../styles/globals.scss';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 import 'antd/dist/antd.css';
 import 'animate.css';
@@ -14,6 +15,7 @@ import { wrapper } from '../store/store';
 import ErrorBoundary from '../helpers/ErrorBoundary';
 import PageRenderer from '../ui/layouts/PageRenderer';
 import { useSardine } from '../hooks/useSardine';
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 const sardineClientId = process.env.NEXT_PUBLIC_SARDINE_CLIENT_ID;
 const sardineEnviroment = process.env.NEXT_PUBLIC_SARDINE_ENVIRONMENT;

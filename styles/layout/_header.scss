@@ -1,0 +1,30 @@
+$header-background: rgba(44, 56, 74, 0.681);
+$header-link-color: #fff;
+$header-link-color-hover: rgba(44, 56, 74, 0.95);
+$header-brand-color: #4f5d73;
+
+.header-pool {
+  background: $header-background;
+
+  .header-brand-pool {
+    color: $header-brand-color;
+  }
+
+  .header-navbar-pool {
+    min-height: 3rem;
+
+    .header-toggler-pool {
+      color: $header-link-color;
+    }
+
+    .header-nav-pool {
+      .nav-link-pool {
+        color: $header-link-color;
+
+        &:hover {
+          color: $header-link-color-hover;
+        }
+      }
+    }
+  }
+}
